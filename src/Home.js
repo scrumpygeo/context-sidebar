@@ -8,7 +8,7 @@ const Home = () => {
         <FaBars />
       </button>
       <button className='btn' >
-        show modal
+        Show Modal
       </button>
     </main>
   )
