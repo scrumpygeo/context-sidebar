@@ -9,7 +9,17 @@ const Sidebar = () => {
         <img src={logo} alt="nasa-logo" className='logo' />
         <button className="close-btn" ><FaTimes /></button>
       </div>
-      Sidebar
+
+      <ul className="links">
+        {links.map(link => {
+          const { id, url, text, icon } = link
+          return (
+            <li key={id}>
+              <a href={url}>{icon}{text}</a>
+            </li>
+          )
+        })}
+      </ul>
     </aside>
   )
 }
