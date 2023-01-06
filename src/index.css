@@ -47,6 +47,16 @@ main {
   color: #222;
   background: transparent;
 }
+.close-btn {
+  font-size: 1.75rem;
+  background: transparent;
+  border-color: transparent;
+  color: hsl(205, 78%, 60%);
+  transition: all 0.3s linear;
+  cursor: pointer;
+  color: hsl(360, 67%, 44%);
+  margin-top: 0.2rem;
+}
 
 .links a {
   display: flex;
@@ -107,7 +117,7 @@ main {
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: hsl(205, 78%, 60%);
+  color: hsl(249, 86%, 55%);
   cursor: pointer;
 }
 .show-sidebar {
