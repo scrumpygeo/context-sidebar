@@ -7,7 +7,7 @@ import { AppContext } from './context'
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useContext(AppContext)
   return (
-    <aside className={`${isSidebarOpen ? 'show-sidebar' : ''} sidebar`}>
+    <aside className={`${isSidebarOpen && 'show-sidebar'} sidebar`}>
       <div className="sidebar-header">
         <img src={logo} alt="nasa-logo" className='logo' />
         <button className="close-btn" onClick={closeSidebar} ><FaTimes /></button>
