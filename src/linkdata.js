@@ -9,7 +9,8 @@ import {
   FaUserFriends,
   FaFolderOpen,
   FaCalendarAlt,
-  FaWpforms,  
+  FaWpforms,
+  FaYoutube,
 } from 'react-icons/fa';
 
 export const links = [
@@ -63,7 +64,7 @@ export const social = [
   },
   {
     id: 4,
-    url: 'https://www.sketch.com',
-    icon: <FaSketch />,
+    url: 'https://www.youtube.com',
+    icon: <FaYoutube />,
   },
 ];
